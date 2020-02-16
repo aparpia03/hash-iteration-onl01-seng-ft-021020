@@ -14,8 +14,7 @@ end
    birthday_kids.each do|name, age|
     if age <= 12
      return "Happy Birthday #{name}! You are now #{age} years old!"
-    else
-      return "You are too old for this."
+    else "You are too old for this."
       end
     end 
   end 
